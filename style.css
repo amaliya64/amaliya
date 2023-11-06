@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(53, 53, 53);
+    color: black;
+}
+
+.header-class {
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-class h1 {
+    font-family: 'Roboto Mono', 'monospace';
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    float: left;
+    display: float;
+}
+
+
+.header-class nav a {
+    text-decoration: none;
+    color: rgb(255, 203, 186);
+    font-family: 'Roboto Mono' 'monospace';
+    display: float;
+    float: right;
+    font-size: 1.1em;
+    margin: 1.25em 1em 1em 1em;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+.spliter .links {
+    margin-top: 2em;
+}
+
+.spliter .links a {
+    font-family: 'Roboto Mono', 'monospace';
+    text-decoration-line: none;
+    border-radius: 1em;
+    padding: 0.75em 1em 0.75em 1em
+    color #ffffff;
+    font-weight: bold;
+    transition: all .5s
+
+}
+
+.main-class {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 25px;
+    color: rgb(255, 203, 186);
+    text-align: center;
+}
+
+.main-class img {
+    width: 32%;
+}
+
+.footer-class {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', 'monospace';
+}
+
+.footer-class nav a {
+    text-decoration: none;
+    color: rgb(255, 203, 186);
+    font-family: 'Roboto Mono' 'monospace';
+    display: float;
+    float: center;
+    font-size: 1.1em;
+    margin: 1.25em 1em 1em 1em;
+    transition: 0.5s;
+}
+
+.footer-class nav a:hover {
+    color: purple;
+}
